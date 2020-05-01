@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+
+    saturn_api:
+        build: .
+        image: saturn_api
+        ports:
+            - 5004:5000
+        command: python manage.py run -h 0.0.0.0
+        volumes:
+            - .:/usr/src/app
+        environment:
+            - FLASK_DEBUG=1
+            - APP_SETTINGS=Development
+        mem_limit: 50m
