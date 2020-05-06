@@ -13,4 +13,4 @@ services:
         environment:
             - FLASK_DEBUG=1
             - APP_SETTINGS=Development
-        mem_limit: 50m
+        mem_limit: 2G

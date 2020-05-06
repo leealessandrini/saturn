@@ -1,6 +1,9 @@
 # Base python image
 FROM python:3-slim-buster
 
+# Install ffmpeg
+RUN apt-get update && apt-get install -y ffmpeg
+
 # Setup working directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
