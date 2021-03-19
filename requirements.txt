@@ -5,5 +5,5 @@ numpy==1.18.3
 numpydoc==0.9.1
 scipy==1.4.1
 matplotlib==3.2.1
-Pillow==7.1.2
+Pillow==8.1.1
 ffmpeg-python==0.2.0
