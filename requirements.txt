@@ -1,6 +1,6 @@
 werkzeug==0.16.1
 Flask==1.1.1
-flask-restx==0.1.0
+flask-restx==0.5.1
 numpy==1.18.3
 numpydoc==0.9.1
 scipy==1.4.1
